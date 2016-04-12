@@ -4,6 +4,7 @@ Sub Macro4()
 '
 '
     Selection.Font.Name = "Times New Roman"
+    Selection.Font.Size = 11
     
     With ActiveDocument.PageSetup.TextColumns
         .SetCount NumColumns:=1
